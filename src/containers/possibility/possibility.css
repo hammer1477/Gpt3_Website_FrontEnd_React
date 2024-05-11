@@ -1,0 +1,103 @@
+.gpt3__possibility{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gpt3__possibility-image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+}
+.gpt3__possibility-image img{
+    width: 100%;
+    height: 100%;
+    margin-left: 3rem;
+}
+.gpt3__possibility-contet{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 6rem;
+
+}
+.gpt3__possibility-contet__secondh4{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 138, 113, 1);
+    margin-top: 2rem;
+}
+.gpt3__possibility-contet__firsth4{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(113, 229, 255, 1);
+    
+}
+.gpt3__possibility-contet p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(129, 175, 221, 1);
+    margin-bottom: 2rem;
+}
+.gpt3__possibility-contet h1{
+    font-family: var(--font-family);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    margin: 1rem 0;
+
+    
+}
+@media  screen and (max-width:1100px) {
+    .gpt3__possibility{
+        
+        flex-direction: column;
+        
+    }
+    .gpt3__possibility-contet{
+        margin-top: 4rem;
+        margin-left: 2rem;
+    
+    }
+    .gpt3__possibility-contet p{
+        margin-bottom: 0rem;
+    }
+}
+@media  screen and (max-width:850px) {
+    
+    
+    .gpt3__possibility-contet h1{
+                
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+@media  screen and (max-width:550px) {
+    
+    
+    .gpt3__possibility-contet h1{
+                
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .gpt3__possibility-contet p{
+                
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
